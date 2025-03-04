@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#recipes">Recipes</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="container">
+            <h1>Welcome to the Recipe Portal</h1>
+            <p>Discover a variety of delicious and easy-to-make recipes!</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>We are passionate about food and sharing tasty recipes with the world! Our goal is to inspire home cooks
+                to create beautiful dishes using simple ingredients. Explore our collection of recipes and start cooking
+                today!</p>
+        </div>
+    </section>
+
+    <!-- Recipes Section -->
+    <section id="recipes">
+        <div class="container">
+            <h2>Featured Recipes</h2>
+            <!-- Recipe 1 -->
+            <div class="recipe">
+                <h3>Chocolate Chip Cookies</h3>
+                <h4>Ingredients:</h4>
+                <ul>
+                    <li>1 cup butter</li>
+                    <li>1 cup sugar</li>
+                    <li>2 cups flour</li>
+                    <li>1 cup chocolate chips</li>
+                </ul>
+                <h4>Preparation:</h4>
+                <p>Preheat the oven to 350°F (175°C). Mix all ingredients together, then scoop dough onto a baking sheet.
+                    Bake for 10 minutes until golden brown.</p>
+            </div>
+
+            <!-- Recipe 2 -->
+            <div class="recipe">
+                <h3>Spaghetti Carbonara</h3>
+                <h4>Ingredients:</h4>
+                <ul>
+                    <li>200g spaghetti</li>
+                    <li>100g pancetta</li>
+                    <li>2 eggs</li>
+                    <li>1 cup grated Parmesan</li>
+                    <li>Salt and pepper</li>
+                </ul>
+                <h4>Preparation:</h4>
+                <p>Cook the spaghetti according to the package instructions. Meanwhile, fry the pancetta in a pan. Beat the eggs and mix with Parmesan. Combine the spaghetti and pancetta, then toss with egg mixture. Season with salt and pepper.</p>
+            </div>
+
+            <!-- Recipe 3 -->
+            <div class="recipe">
+                <h3>Grilled Cheese Sandwich</h3>
+                <h4>Ingredients:</h4>
+                <ul>
+                    <li>2 slices of bread</li>
+                    <li>1 slice of cheese</li>
+                    <li>Butter</li>
+                </ul>
+                <h4>Preparation:</h4>
+                <p>Butter the bread and place the cheese between the slices. Grill on a hot pan for 3-4 minutes on each side until golden brown.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Have any questions or want to share your recipe? Feel free to reach out!</p>
+            <ul>
+                <li>Email: info@recipeportal.com</li>
+                <li>Phone: 123-456-7890</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Recipe Portal. All Rights Reserved.</p>
+    </footer>
+</body>
+
+</html>
